@@ -1,0 +1,73 @@
+/* This is the styling for the first page*/
+
+h1 {
+	 background-color: #f3f3f3;
+	 margin: auto; 
+	 text-align: center;
+	 font-size:50px;	 
+}
+p {
+	font-size: 25px;
+}
+
+#main-picture {
+			display: block;
+			text-align: center;
+}
+
+
+
+.index-h2 {
+			text-align: center; 
+}
+
+
+
+
+.Pictures {
+	display: inline-block;
+	padding: 30px;
+	margin: 0px;
+
+}
+
+
+.index-h3 {
+			text-align: center;
+			background-color: lightblue;
+}
+
+
+}
+
+nav {
+	border-bottom: 10px solid black line;
+
+}
+
+.nature ol {
+	list-style-type: none;
+	padding-right: 0;
+}
+
+.Images {
+	display: inline-block;
+	padding: 30px;
+	margin-left: 10px;
+
+}
+
+.Youth {
+	text-align: center;
+	border: 10px;
+}
+
+
+
+
+
+
+
+
+
+
