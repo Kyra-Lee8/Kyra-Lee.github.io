@@ -1,5 +1,7 @@
 body {
 	background-color: lightpink;
+	width: 90%
+	margin: 0 auto;
 }
 
 h1 {
@@ -29,6 +31,7 @@ nav ul a:hover {
 
 .box {
 	float: left;
+	background-color: #07FC2C;
 	margin-right: 15px;
 	width: 150px;
 	height: 100px;
