@@ -23,6 +23,15 @@ nav ul a:hover {
 	text-align: center;
 }
 
-#ImageNet {
+.ImageNet {
 	text-align: center;
+}
+
+.box {
+	float: left;
+	margin-right: 15px;
+	width: 150px;
+	height: 100px;
+	border-radius: 5px;
+	padding: 1em;
 }
