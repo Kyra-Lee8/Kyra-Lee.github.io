@@ -27,15 +27,14 @@ nav ul a:hover {
 
 .ImageNet {
 	text-align: center;
+	width: 350;
+	height: 250;
 }
 
 .box {
 	float: left;
-	background-color: #07FC2C;
 	margin-right: 15px;
 	width: 150px;
 	height: 100px;
-	padding: 1em;
+	padding: 10em;
 }
-
-img 
