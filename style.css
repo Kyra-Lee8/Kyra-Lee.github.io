@@ -20,8 +20,9 @@ nav ul a:hover {
 }
 
 #theImage {
+	float: center;
 	background: green;
-	text-align: center;
+	
 }
 
 .ImageNet {
@@ -36,4 +37,12 @@ nav ul a:hover {
 	width: 150px;
 	height: 100px;
 	padding: 10em;
+}
+
+#theFlex {
+	display: flex;
+	background-color: #f3f3f3;
+	align-items: center;
+	padding:50%;
+
 }
