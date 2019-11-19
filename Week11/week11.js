@@ -1,13 +1,14 @@
-//console.log ('hello');
+console.log ('hello');
 
 // Trying to get the user to input a text and the submit button to trigger a response;
 let sitename;
 let submittext;
 
 $('#submitname').click(function() {
-	sitename = $('sitename').val();
-	$('response').text ('Site,' + 'Pick a site name');
-	console.log(sitename);
+	sitename = $('#sitename').val()
+	console.log(sitename)
+	$('#response').text (sitename + ' Site');
+	// console.log(sitename);
 	$('.input2').css("display", "block");
 })
 
