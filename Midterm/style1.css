@@ -1,0 +1,275 @@
+body {
+  width: 100%;
+  height: 100%; 
+  margin: 0;
+  padding: 0;
+  background-image: url("assets/dark-wood.png");
+}
+
+#main-picture{
+  margin: auto;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  position: absolute;
+}
+
+.arrow {
+  top: -5px;
+  width: 0.5px;
+  height: 0.5px;
+  margin-right: -70%;
+  margin-top: 40%;
+  position: relative;
+  padding: 0;
+  opacity: 1;
+  display: inline-block;
+
+}
+
+#BookChapter {
+  padding: 6px;
+  color:black;
+  background-color: white;
+  border: black 2px;
+}
+
+}
+
+nav ul a:hoover {
+  color: #FFA233
+}
+
+
+.para{
+  text-align: center;
+  max-width: 780px;
+  font-size: 30px;
+  font-family: 'Raleway';
+}
+
+.head1 {
+  margin-top: 5%;
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  color: #0F3484;
+  font-size: 40px;
+}
+
+.head2 {
+  margin-top:0;
+  margin: auto;
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  color: #07563D;
+  font-size: 20px;
+}
+
+.box {
+  border:10px solid;
+  font-size: x-large;
+}
+
+h2 {
+ /* background-color: white;*/
+  margin-top: 10%;
+
+}
+
+/*.bodycolor{
+  background-color: white;*/
+}
+
+.arrow2 {
+  display: inline-block;
+  margin: auto;
+
+
+}
+
+
+.arrow1 {
+  display: inline-block;
+  margin:auto;
+  transform: rotate(180deg);
+
+}
+
+.b1{
+  margin-left: 80%;
+  margin-bottom: 10%;
+  font-size: 500px;
+  font-family: 'Raleway';
+}
+
+.vid {
+  margin: 5%;
+  position: relative;
+
+}
+
+.pics {
+  margin-left: -50%;
+}
+.pics1 {
+  margin-right: -50%;
+  margin-top: -30%;
+}
+
+.pics2 {
+  margin-left: -50%;
+  margin-top: -10%;
+  height: 30%
+}
+
+.pics3 {
+  margin-right: -50%;
+  margin-top: 10%;
+
+}
+
+.description1 {
+  font-style: 'Raleway'; serif
+  font-size: 15px;
+  border: solid 10px;
+  width: 500px;
+}
+
+.description2 {
+  font-style: 'Raleway'; serif
+  font-size: 15px;
+  border: solid 10px;
+  width: 500px;
+}
+
+.description3 {
+  font-style: 'Raleway'; serif
+  font-size: 15px;
+  border: solid 10px;
+  width: 500px;
+}
+
+.description4 {
+  font-style: 'Raleway'; serif
+  font-size: 15px;
+  border: solid 10px;
+  width: 500px;
+}
+
+.top {
+  margin-top: 10%;
+}
+
+.vid1{
+  position: relative;
+  margin: 5%;
+  width: 300px;
+}
+
+
+.pics4 {
+  margin-right: -50%;
+  margin-top: -30%;
+}
+
+.top1 {
+  margin:auto;
+  margin-top: -10%;
+}
+
+/* This section was trying to get the pictures to be in a container and scroll through in a slide show*/
+/*.bookcover {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) perspective(2000px);
+  width: 300px;
+  height: 400px;
+  transform-style: preserve-3d;
+  /* box-shadow: inset 300px 0 50px;*/ 
+
+}
+/*.container {
+  margin: auto;
+  margin-top: 10%;
+  position: relative;
+  width: 40%;
+  height: 0;
+  padding-bottom: 40%;
+  background:#4c4c4c;
+  border: solid 10px #2c2c2c;
+  text-align: center;
+
+}
+ p {
+  text-align: center;
+  font-size: 500px;
+  font-family: 'Raleway', 'sanserif'
+ }
+
+
+
+.navbar header {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent
+  opacity:1;
+}
+
+
+
+
+
+/*.book {
+  transform-style: preserve-3d;
+  position: absolute;
+  height: 500px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 800px;
+  font-family: 'Raleway'*/
+
+
+}
+
+
+/*.slide_img {
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+  
+}
+
+#i1, #i2, #i3 {
+
+}
+
+/*.front, .page1 {
+  transform-style: preserve-3d;
+  position: absolute;
+  width: 400px;
+  height: 100%;
+  top: 0; left: 0;
+  transform-origin: center;
+font-size: 25px;
+  transition: transform .5s ease-in-out, box-shadow .35s ease-in-out;
+}
+
+.front, .back {
+  background-color: #3f5736;
+  background-image: url("assets/black-felt.png"); /*Instead of using this picture, create my own book cover and then add it here*/
+
+
+
+/*.button {
+  position: absolute;
+  bottom: 8px:
+  right:16px;
+}
