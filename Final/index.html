@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <script type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/final.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('#sidebarCollapse').on('click', function(){
+          $('#sidebar').toggleClass('active');
+        });
+      });
+    </script>
+
+
+    <title>The Beginning</title>
+  </head>
+  <body>
+  <!--For creating the sidebar, I used "Bootstrap 4 sidebar menu with submenu responsive with code 2018" from Youtube as a guide to help me-->
+  	<div class="wrapper">
+  		<nav id="sidebar">
+  			<div class="sidebar-header">
+  				<center><h3><strong>Table of Contents</strong></h3></center>
+  			</div>
+
+  			<ul class="list-unstyled components">
+  				<!--<p>Dummy Heading</p>-->
+  				<li class="active">
+  					<li>
+  					<a href="index.html">Home</a>
+  					</li>
+  					<br>
+  			
+  				</li>
+
+  				<li>
+  					<a href="aboutme.html">About the Author</a>
+  				</li>
+  				<br>
+  				<li>
+  					<a href="#chapterSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapters</a>
+  					<ul class="collapse list-unstyled" id="chapterSubmenu">
+  						<br>
+  						<li>
+  							<a href="chapter1.html">Discovering My Passions</a>
+  						</li>
+  						<br>
+  						<li>
+  							<a href="chapter2.html">Non-Traditional STEM</a>
+  						</li>
+  						<br>
+  						<li>
+  							<a href="chapter3.html">Using My Voice</a>
+  						</li>
+  						<br>
+  						<li>
+  							<a href="chapter4.html">Becoming Kyra-Lee</a>
+  						</li>
+  					</ul>
+  				</li>
+  				<br>
+  				<li>
+  					<a href="#">Gallery</a>
+  				</li>
+  				<br>
+  				<li>
+  					<a href="#contactSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Contact</a>
+  					<ul class="collapse list-unstyled" id="contactSubmenu">
+  						<br>
+  						<li>
+  							<a href="#">Testimonials</a>
+  						</li>
+  						<br>
+  						<li>
+  							<a href="contact.html">Speaking Inquiries</a>
+  						</li>
+  				</li>
+  			</ul>
+
+  			<!--<ul class="list-unstyled CTAs">
+  				<li>
+  					<a href="#" class="download">Download</a>
+  				</li>
+  				<li>
+  					<a href="#" class="article">Article</a>
+  				</li>-->
+  			</ul>
+  		</nav>
+
+  		<!--<div class="content">
+  			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  			<button type="button" id="sidebarCollapse" class="btn btn-info">
+  				<i class="far fa-align-justify"></i> <span></span>
+  			</button></nav>-->
+
+
+  <!--<a class="navbar-brand" href="#">Navbar</a>-->
+  <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>-->
+
+
+	<!--<div id="cover">-->
+		<img src="assets/cover.png" id="cover"></div>
+
+		<div class="line"></div>
+
+    <div class="text">
+            <p class="text-js"> Hi, My name is Kyra-Lee and this is my story.</p>
+        </div>
+
+		<div id="b1">
+			<button><a href="aboutme.html">My Story</button></a></div>
+
+  		</div>
+  </div>
+
+  
+  </body>
+</html>

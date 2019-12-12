@@ -1,0 +1,190 @@
+#logo {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	width: 40px;
+	height: 40px;
+}
+
+#header{
+	font-size: 40px;
+	text-align: center;
+	border:10px solid black;
+}
+
+#p1 {
+	position: relative;
+	box-shadow:0 4px 10px rgba(0,0,0,0.2);
+	
+}
+
+p {
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif; 
+	font-style: normal;
+}
+
+/*CSS Animation Flipping content from CSS3=Awesome*/
+/*This is to position all of the pictures in the grid: https://www.youtube.com/watch?v=jV8B24rSN5o*/
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-columns: 1fr;
+	grid-auto-rows: 100px;
+	grid-gap: 10px;
+	margin: 10px auto;
+}
+
+/*When the user hovers over the images, this is how they will see it*/
+
+.grid-container {
+  perspective: 1000;
+}
+
+/*First Picture*/
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: 1.0s linear;
+}
+.grid-container:hover #f1_card {
+  transform: rotateY(180deg);
+}
+
+/*This positions the first image*/
+.face {
+  grid-column-start: 1;
+  grid-column-end: 2; 
+  grid-row-start: 1;
+  grid-row-end:2;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/*Format for putting the images on top of a div insdie a container*/
+
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box auto;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  background-color: transparent;
+  width: 450px;
+  height: 300px;
+}
+
+/*This is to edit the text in the paragraph on the back div*/
+.face.back p {
+	font-size: 18px;
+	width: 300px;
+  	height: 200px;
+  	margin: auto;
+}
+
+/*Second picture*/
+
+#f2_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition-delay: 6s;
+  transition: 3s linear;
+}
+
+.grid-container:hover #f2_card {
+  transform: rotateY(180deg);
+}
+
+/*This positions the second image*/
+.face2 {
+  grid-column-start: 2;
+  grid-column-end: 3; 
+  grid-row-start: 1;
+  grid-row-end:2;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/*Third Picture*/
+
+#f3_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition-delay: 12s;
+  transition: 6s linear;
+}
+
+.grid-container:hover #f3_card {
+  transform: rotateY(180deg);
+}
+
+/*This positions the third image*/
+.face3 {
+  grid-column-start: 3;
+  grid-column-end: 4; 
+  grid-row-start: 1;
+  grid-row-end:2;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.b2 {
+	right: 0;
+	bottom: 0;
+	position: absolute;
+  	margin-bottom: -100px;
+  	overflow: auto;
+  	float: right;
+  	margin-right: 10px;
+ 	margin-top: -50px;
+ 	margin-bottom: 5px;
+}
+
+
+
+/*This is for Chapter 1 Response*/
+
+#header1{
+	font-size: 30px;
+	text-align: center;
+	border:10px solid gray;
+}
+
+#label1{
+	font-size: 20px;
+	font-family:'Raleway', sans-serif; 
+	font-style: normal;
+	text-align: left;
+}
+
+.b3 {
+  	right: 0;
+	bottom: 0;
+	position: absolute;
+  	margin-bottom: -100px;
+  	overflow: auto;
+  	float: right;
+  	margin-right: 10px;
+  	margin-top: -50px;
+  	margin-bottom: 5px;
+
+}
+
+
+
+/*Might use https://www.w3schools.com/howto/howto_css_flip_image.asp for reference*/
+  
+  
+
+
+
+

@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+div {
+    position: relative;
+}
+
+.text {
+    /*margin-top: 10vw;
+    margin-left: 10vw;*/
+    position: absolute;
+    margin-bottom: -50px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+#content {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    font-size: 50px;
+}
+
+p {
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+    margin-right: 8px;
+    color: #D56F19;
+    bottom: 0px;
+    margin-left: 50px;
+}
+
+a {
+    color: #D56F19;
+    float: right;
+    margin: 3vw;
+    line-height: 10px;
+    font-weight: 900;
+}
+
+.words {
+    opacity: 0;
+}
+
+.cursor {
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: -1px;
+    width: 2px;
+    margin: 0px;
+    background-color: #D56F19;
+    z-index: 1;
+    animation: flash 0.5s none infinite alternate;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
